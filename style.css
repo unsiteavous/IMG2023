@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 3.5rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.project_list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.game_card {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  margin: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: 300ms;
+}
+
+.game_card img {
+  width: 200px;
+  height: 200px;
+}
+
+.game_card:hover {
+  transform: translate(0, -10px);
+}
